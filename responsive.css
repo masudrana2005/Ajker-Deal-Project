@@ -1,0 +1,301 @@
+/* I-pad responsive */
+@media only screen and (min-width: 200px) and (max-width: 991px){
+    /* main-header */
+    .main-header .mobile-menu{
+        visibility: hidden;
+        opacity: 0;
+        transition: .5s;
+    }
+    .menu-icon{
+        background-color: rgb(25, 24, 24);
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding: 10px;
+    }
+    .menu-icon i{
+        color: #fff;
+        font-size: 25px;
+        padding: 8px;
+        border: 1px solid #fff;
+        border-radius: 8px;
+        margin-right: 5px;
+    }
+    .menu-icon .menu-close{
+        display: none;
+    }
+    .show.mobile-menu{
+        visibility: visible;
+        opacity: 1;
+    }
+    .main-header .container{
+        max-width: 100%;
+    }
+    .main-header nav ul li{
+        display: block;
+        width: 100%;
+    }
+    .main-header nav ul li a{
+        padding: 10px;
+    }
+    .main-header nav ul{
+        width: 100%;
+    }
+    .main-header{
+        background: none;
+    }
+    .main-header .mobile-menu{
+        background-color: gray;
+        float: right;
+    }
+    .main-header nav a{
+        background: none;
+    }
+    .main-header .mobile-menu .language{
+        display: flex;
+        align-items: center;
+    }
+    .main-header .mobile-menu .language a{
+        margin: 2px;
+    }
+    .main-header .mobile-menu ul li{
+        line-height: 5px;
+    }
+
+    /* header-2 */
+    .header-2 .image-1, .image-2 img{
+        width: 150px;
+    }
+    .header-2 .image-2{
+        margin-top: -200px;
+    }
+    .header-2{
+        margin-top: 80px;
+        overflow: visible;
+    }
+    
+    /* hero-section */
+    .hero-section .col-lg-2{
+        width: 30%;
+    }
+    .hero-section .col-lg-10{
+        width: 70%;
+    }
+    .hero-section ul li:hover ul{
+        width: 100%;
+        height: 100%;
+    }
+    .hero-section ul li ul li{
+        padding-right: 5px;
+    }
+
+    /* hot deal */
+    .hot-deal .col-lg-6{
+        margin: 10px;
+    }
+    .hot-deal .box{
+        height: 400px;
+    }
+
+    /* gudgets deals */
+    .gudgets-deals .col-lg-6{
+        margin: 10px;
+    }
+    .gudgets-deals .box{
+        height: 400px;
+    }
+
+    /* live video */
+    .live-video .top-nav .col-lg-3{
+        width: 200px;
+        height: 40px;
+    }
+    .live-video .top-nav .col-lg-6{
+        margin-top: -40px;
+        margin-left: 200px;
+    }
+    .live-video .top-nav .left-auto{
+        margin-left: 800px;
+        margin-top: -40px;
+    } 
+    .live-video .col-lg-6{
+        margin: 10px;
+    }
+    .live-video .box{
+        height: 400px;
+    }
+
+    /* motor bike */
+    .motor-bike-and-mobile .col-lg-6{
+        margin: 10px;
+    }
+    .motor-bike-and-mobile .box{
+        height: 400px;
+    }
+    .motor-bike-and-mobile .d-flex{
+        margin-top: -45px;
+        margin-left: -15px;
+    }
+
+    /* girls & boys fashion */
+    .girls-and-boys-fashion .d-flex{
+        margin-top: -45px;
+        margin-left: -15px;
+    }
+    .girls-and-boys-fashion .w-215 .col-lg-6{
+        margin: 10px;
+    }
+
+    /* muslim fashion */
+    .muslim-fashion .w-215 .col-lg-2{
+        width: 220px;
+        margin: 0 auto;
+        padding: 7px;
+    }
+
+    /* footer */
+    .footer .image-1{
+        margin: 0 auto;
+        width: 400px;
+    }
+}
+
+
+
+
+/* mobile responsive */
+@media only screen and (min-width: 200px) and (max-width: 575px){
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .row > *{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* header-2 */
+    .header-2 .image-1, .image-2 img{
+        width: 110px;
+    }
+    .header-2 .image-2{
+        margin-top: -200px;
+    }
+    .header-2{
+        margin-top: 80px;
+        overflow: visible;
+    }
+
+    /* hot deal */
+    .hot-deal .col-lg-8>.image, img{
+        width: 180px;
+    }
+    .hot-deal .text{
+        margin-top: -50px;
+    }
+    .hot-deal .col-lg-6{
+        margin: 0 auto;
+        width: 190px;
+        padding: 7px;
+    }
+    .hot-deal .box{
+        height: 240px;
+    }
+
+    /* gadgets deal */
+    .gudgets-deals .col-lg-8>.image, img{
+        width: 180px;
+    }
+    .gudgets-deals .text{
+        margin-top: -50px;
+    }
+    .gudgets-deals .col-lg-6{
+        margin: 0 auto;
+        width: 190px;
+        padding: 7px;
+    }
+    .gudgets-deals .box{
+        height: 240px;
+    }
+
+    /* live video */
+    .live-video .w-215 .col-lg-3{
+        width: 190px;
+        margin: 0 auto;
+        padding: 7px;
+    }
+    .live-video .top-nav > .box{
+        height: 240px;
+    }
+    .live-video .top-nav .col-lg-3{
+        width: 200px;
+        height: 40px;
+    }
+    .live-video .top-nav .col-lg-6{
+        margin-top: -40px;
+        margin-left: 200px;
+    }
+    .live-video .top-nav .left-auto{
+        margin-left: 800px;
+        margin-top: -40px;
+    }
+    .live-video .box{
+        height: 250px;
+    }
+
+    /* motor bike */
+    .motor-bike-and-mobile .d-flex{
+        margin-top: -45px;
+        margin-left: -15px;
+    }
+    .motor-bike-and-mobile .w-215 .col-lg-3{
+        width: 190px;
+        margin: 0 auto;
+        padding: 7px;
+    }
+    .motor-bike-and-mobile .box{
+        width: 100%;
+        height: 250px;
+    }
+
+    /* girls & boys fashion */
+    .girls-and-boys-fashion .d-flex{
+        margin-top: -45px;
+        margin-left: -15px;
+    }
+    .girls-and-boys-fashion .w-215 .col-lg-3{
+        width: 190px;
+        margin: 0 auto;
+        padding: 7px;
+    }
+
+    /* muslim fashion */
+    .muslim-fashion .w-215 .col-lg-2{
+        width: 190px;
+        margin: 0 auto;
+        padding: 7px;
+    }
+
+    /* footer */
+    .footer .col-sm-6{
+        width: 190px;
+        float: left;
+    }
+    .footer .image-1{
+        margin: 0 auto;
+    }
+    .footer-end p{
+        font-size: 10px;
+    }
+    .footer-end-p{
+        padding-top: 20px;
+    }
+    .footer-end-p p{
+        font-size: 14px;
+    }
+    .to-top{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: rgb(118, 116, 116);
+    }
+}
